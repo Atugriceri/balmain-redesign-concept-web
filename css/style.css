@@ -1,0 +1,382 @@
+/*------ Header Settings Start ------*/
+
+.border-bottom {
+    border-bottom: 0.10rem solid rgba(0, 0, 0, 1) !important;
+}
+
+.logo {
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    line-height: 21px;
+}
+
+.logo-paris {
+    font-size: 0.8rem;
+    line-height: 24px;
+}
+
+.logo:hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.nav-link {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.fa-search {
+    -webkit-text-stroke: 2px white;
+}
+
+.bar-1, .bar-2 {
+    width: 35px;
+    height: 0.094rem;
+    background-color: #000;
+    margin: 6px 0;
+    transition: 0.5s ease;
+}
+
+.toggler {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.change .bar-1 {
+    transform: rotate(-45deg) translateX(-7px) translateY(-2px);
+}
+
+.change .bar-2 {
+    transform: rotate(45deg) translateX(-8px) translateY(2px);
+}
+
+/*------ Header Settings End ------*/
+
+/* Bag Collection Section Start */
+
+.bag-collection {
+    border-bottom: 0.10rem solid rgba(0, 0, 0, 1);
+}
+
+.collection-content {
+    padding-left: 3%;
+}
+
+.col-md-6 > .img-fluid {
+    border-left: 0.10rem solid rgba(0, 0, 0, 1) !important;
+}
+
+.shop-now {
+    background-color: transparent;
+    border: 0.10rem solid rgba(0, 0, 0, 1) !important;
+    padding: 0.6rem 3rem;
+    transition: ease-out 0.5s;
+    outline: none;
+    box-shadow: inset 0 0 0 0 rgb(red, green, blue);
+}
+
+.shop-now:hover {
+    box-shadow: inset 0 0 0 160px #000;
+    transition: ease-out 1.5s;
+    color: #fff;
+}
+
+/* Bag Collection Section End */
+
+/* Women & Men Collections Settings Start */
+
+.card-img-top {
+    border-bottom: 0.10rem solid rgba(0, 0, 0, 1);
+}
+
+.card-deck {
+    margin-top: 8rem !important;
+}
+
+/* Women & Men Collections Settings End */
+
+/* Products Card Deck Settings Start */
+
+.trending {
+    letter-spacing: 0.3rem;
+}
+
+.product {
+    border: 0.10rem solid rgba(0, 0, 0, 1);
+    margin-top: 2rem;
+}
+
+.price {
+    color: #a83232;
+    letter-spacing: 0.1rem;
+}
+
+.product-title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+}
+
+.view-more {
+    background-color: transparent;
+    border: 0.10rem solid rgba(0, 0, 0, 1) !important;
+    padding: 0.6rem 3rem;
+    transition: ease-out 0.5s;
+    outline: none;
+    box-shadow: inset 0 0 0 0 rgb(red, green, blue);
+}
+
+.view-more:hover {
+    box-shadow: inset 0 300px 0 0 #000;
+    transition: ease-out 1.5s;
+    color: #fff;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.img-link:hover {
+    cursor: pointer;
+}
+
+/* Products Card Deck Settings End */
+
+/* Categories Settings Start */
+
+.categories {
+    border: 0.10rem solid rgba(0, 0, 0, 1);
+}
+
+.category-img {
+    border-bottom: 0.10rem solid rgba(0, 0, 0, 1);
+}
+
+/* Categories Settings End */
+
+/* Sneakers Setting Start */
+
+.sneaker-collection {
+    border-top: 0.10rem solid rgba(0, 0, 0, 1);
+    border-bottom: 0.10rem solid rgba(0, 0, 0, 1);
+}
+
+.sneaker-img {
+    border-right: 0.10rem solid rgba(0, 0, 0, 1);
+}
+
+.sneaker-link:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Sneakers Settings End */
+
+/* Hashtag Settings End */
+
+.hashtags {
+    font-size: 48px;
+    letter-spacing: -0.1rem;
+    list-style: none;
+    display: block;
+}
+
+.hashtag-link {
+    display: inline-block;
+    margin-right: 4%;
+    transition: ease-out .04s;
+}
+
+.hashtag-link:hover {
+    transition: ease-out 1.5s;
+}
+
+.hashtag-row {
+    border-top: 0.10rem solid rgba(0, 0, 0, 1);
+    border-bottom: 0.10rem solid rgba(0, 0, 0, 1);
+    margin-top: 8rem !important;
+}
+
+/* Hashtag Settings End */
+
+/*------ Footer Start ------*/
+
+footer {
+    margin-top: 5rem !important;
+}
+
+.credit-text {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    color: rgb(255, 255, 255);
+}
+
+.credit {
+    color: #e7ca8a;
+    font-weight: 300;
+}
+
+.credit:hover {
+    font-weight: 300;
+}
+
+.footer-title {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 0.9rem;
+}
+
+.footer-link {
+    display: block;
+    margin: 1.1rem 0 !important;
+    color: rgba(255, 255, 255, 0.658) !important;
+    font-weight: 300;
+    letter-spacing: 0.09rem;
+    font-size: 0.8rem;
+}
+
+.footer-link:hover {
+    color: rgba(255, 255, 255, 0.877) !important;
+    font-weight: 300;
+}
+
+.col-md {
+    margin-top: 3rem;
+}
+
+.mail-box {
+    font-size: 0.9rem;
+    border-bottom: 0.10rem solid rgb(255, 255, 255) !important;
+    border-radius: unset;
+    width: 14.4rem;
+    color: white;
+    margin-top: 1.5rem;
+    margin-bottom: 0.7rem;
+    padding-left: 0;
+}
+
+.filter-box {
+    border-bottom: 2px solid #757575;
+}
+
+.filters {
+    margin: 0 6%;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    background-color: transparent;
+  }
+
+.dropdown-menu {
+    background-color: #fff;
+    border-radius: unset;
+    border: 0.10rem solid #757575;;
+}
+
+.dropdown-toggle {
+    margin-left: 45rem;
+    color: #757575;
+}
+
+.filter-button {
+    margin-left: 9rem !important;
+}
+
+.subscribe {
+    background-color: transparent;
+    border: 0.10rem solid rgb(255, 255, 255) !important;
+    padding: 0.6rem 4.5rem;
+    color: #fff;
+    transition: ease-out 0.5s;
+    outline: none;
+    box-shadow: inset 0 0 0 0 rgb(red, green, blue);
+}
+
+.subscribe:hover {
+    box-shadow: inset 0 0 0 160px #fff;
+    transition: ease-out 1.2s;
+    color: #000;
+}
+
+.social-link {
+    font-size: 0.9rem;
+    list-style: none;
+    display: block;
+    font-weight: 700;
+    color: #fff;
+}
+
+.social-link:hover {
+    color: rgba(255, 255, 255, 0.87);
+}
+
+.social-links {
+    display: inline-block;
+    margin-right: 4%;
+}
+
+.social-links-row {
+    border-top: 0.10rem solid rgb(255, 255, 255);
+    margin-top: 7rem !important;
+    padding-top: 1rem;
+}
+
+/*------ Footer Start ------*/
+
+/* Media Querys */
+
+@media screen and (max-width: 576px) {
+
+    * {
+        padding: 0;
+    }
+
+    .collection-content {
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+    }
+
+    .bag-collection {
+        border: 0;
+    }
+
+    .col-md-6 > .img-fluid {
+        border: 0.10rem solid rgba(0, 0, 0, 1) !important;
+    }
+
+    .card-pf {
+        margin: 4rem 2.3rem;
+    }
+
+    .categories {
+        margin: 4rem 2.3rem;
+    }
+
+    .categories:nth-child(1) {
+        margin-top: 0rem;
+    }
+
+    .sneaker-img {
+        border: 0.10rem solid rgba(0, 0, 0, 1);
+    }
+
+    .sneaker-collection {
+        border: 0;
+        margin-bottom: 0 !important;
+    }
+
+    .hashtags {
+        font-size: 24px;
+        letter-spacing: -0.1rem;
+        list-style: none;
+        display: block;
+    }
+
+    .hashtag-row {
+        margin-top: 0 !important;
+    }
+
+}
+
+/* Media Querys */
